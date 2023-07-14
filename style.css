@@ -15,7 +15,14 @@ header{
     display: block;
     float: left;
     background-color: var(--bege);
+    font-family: foods;
 }
+
+@font-face{
+    font-family: foods;
+    src: url("./font/super_foods/Super\ Foods.ttf");
+}
+
 article{
     width: 70%;
     height: 800px;
@@ -36,4 +43,10 @@ footer{
     display: block;
     float: left;
     background-color: var(--vinho);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
