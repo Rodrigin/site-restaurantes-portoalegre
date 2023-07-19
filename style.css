@@ -23,6 +23,11 @@ header{
     src: url("./font/Roboto/Roboto-Black.ttf");
 }
 
+@font-face{
+    font-family: opensans;
+    src: url("./font/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf");
+}
+
 article{
     width: 70%;
     height: 800px;
