@@ -14,9 +14,43 @@ header{
     height: 300px;
     display: block;
     float: left;
-    background-color: var(--bege);
+    background-color: #992015;
     font-family: robo;
 }
+
+nav{
+    display: block;
+    margin-top: 30px;
+}
+
+nav li{
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 80px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.lista::before{
+    color: white;
+    content: "|";
+    padding-right: 50px;
+}
+
+#home::before{
+    content: "";
+    color: black;
+}
+
 
 @font-face{
     font-family: robo;
