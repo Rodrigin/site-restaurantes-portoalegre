@@ -71,6 +71,7 @@ h1{
     background-color: var(--vinho);
     color: white;
     align-items: center;
+    font-family: "robo";
     
 
 }
@@ -85,7 +86,7 @@ h1{
 
 }
 
-section h3 {
+.restaurante-caro h3 {
     width: 30%;
     float: right;
     height: 30px;
@@ -97,7 +98,7 @@ section h3 {
 }
 
 
-section p {
+.restaurante-caro p {
     width: 48%;
     float: right;
     height: 100px;
@@ -118,7 +119,55 @@ section p {
     margin-left: 25px;
     margin-top: 6%;
     border: 1px solid black;    
+    font-family: "robo";
 }
+
+.restaurante-moderado h2{
+    display: block;
+    background-color: var(--vinho);
+    width: 100%;
+    height: 30px;
+    color: white;
+
+}
+
+.restaurante-moderado h3 {
+    color: white;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
+
+.restaurante-moderado p {
+    color: white;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.restaurante-moderado button{
+    margin-left: 80%;
+    margin-top: 2%;
+}
+
+.restaurante-moderado h4 {
+    text-align: center;
+    margin-top: 3%;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-color: var(--vinho);
+
+}
+
+.restaurante-moderado ul{
+    color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+
 
 .restaurante-barato {
     width: 45.5%;
@@ -135,7 +184,7 @@ p strong {
     color: rgb(174, 171, 171);
 }
 
-section button {
+.restaurante-caro button {
     margin-top: 3%;
     margin-left: 40%;
 }
