@@ -50,11 +50,16 @@ input{
     padding-left: 3px;
     margin-left: 18px;
     margin-top: 20px;
-    border-radius: 10px;
+    
     border: 1.4px solid black;
     
 }
+.busca input{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 
+}
 #div1{
     display: block;
     width: 335px;
