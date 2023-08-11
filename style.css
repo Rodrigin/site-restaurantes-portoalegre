@@ -108,7 +108,7 @@ input{
     font-family: robo;
 }
 
-header ul{
+#lista1{
     display: block;
     width: 309px;
     height: 200px;
