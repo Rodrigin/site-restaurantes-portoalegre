@@ -17,6 +17,11 @@ header{
     background-color: #992015;
     font-family: robo;
 }
+header h1 {
+    color: white;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+}
 
 nav{
     display: block;
